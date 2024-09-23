@@ -1,0 +1,62 @@
+body {
+  background-color: #dee5d4;
+}
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabecera img {
+  width: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cabecera p {
+  font-size: 50px;
+  font-weight: bold;
+  color: #001f3f;
+}
+.barnav {
+  font-size: 25px;
+  margin-left: 50px;
+}
+.barnav a {
+}
+.inicio {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.content {
+  display: flex;
+  margin: 50px;
+  font-size: 36px;
+  font-family: "Georgia", serif;
+}
+.content img {
+  width: 700px;
+  height: 500px;
+}
+.inicio {
+  font-size: 80px;
+  color: #001f3f;
+  font-weight: bold;
+}
+.inicio marquee {
+  text-align: center;
+}
+
+.inicio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
